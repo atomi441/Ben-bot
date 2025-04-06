@@ -1,8 +1,8 @@
 
 {
-    "bot-name": "BEN-BOT-V1",
-    "description": "Ben bot simple by NOTHING",
-    "logo": "https://files.catbox.moe/4i7dp7.jpg",
+    "bot-name": "𝐊𝐢𝐧𝐠_𝐚𝐭𝐨𝐦𝐢𝐜  🗿   ⇶✴☞ʍⲟԃƶ❈",
+    "description": "Atomic bot simple by +｡:.(*∀TOM)ﾉﾟ𝙼Ꭷ𝙳𝓩𝓨ćѦѦﾟ.:｡",
+    "logo": "https://files.catbox.moe/fqonna.jpg",
     "keywords": ["bot"],
     "documentation-link": "https://webpairben-offcial.onrender.com",
     "owner-verification":"kingamirnafas@gmail.com",
@@ -40,7 +40,7 @@
       },
       "ANTILINK": {
         "description": "Set true to Deletes messages containing links and warns the user To Enable put true and to disable put false (e.g, true)",
-        "value": "false",
+        "value": "true",
         "required": false
         
       }
