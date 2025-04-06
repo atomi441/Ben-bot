@@ -3,19 +3,21 @@ const fs = require("fs");
 const path = require("path");
 
 //ALL GLOBAL
-global.ownername = process.env.OWNER_NAME || "NOTHING";
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : [] || "93744215959";
-global.packname = process.env.BOT_NAME || "BEN-BOT-V1";
-global.author = process.env.OWNER_NAME || "NOTHING";
+global.ownername = process.env.OWNER_NAME || "+｡:.(*∀TOM)ﾉﾟ𝙼Ꭷ𝙳𝓩𝓨ćѦѦﾟ.:｡𝐊𝐢𝐧𝐠_𝐚𝐭𝐨𝐦𝐢𝐜  🗿   ⇶✴☞ʍⲟԃƶ❈ +｡:.(*∀TOM)ﾉﾟ𝙼Ꭷ𝙳𝓩𝓨ćѦѦﾟ.:｡";
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : [] || "254762654167";
+global.packname = process.env.BOT_NAME || "+｡:.(*∀TOM)ﾉﾟ𝙼Ꭷ𝙳𝓩𝓨ćѦѦﾟ.:｡
+    𝐊𝐢𝐧𝐠_𝐚𝐭𝐨𝐦𝐢𝐜  🗿   ⇶✴☞ʍⲟԃƶ
++｡:.(*∀TOM)ﾉﾟ𝙼Ꭷ𝙳𝓩𝓨ćѦѦﾟ.:｡";
+global.author = process.env.OWNER_NAME || "+｡:.(*∀TOM)ﾉﾟ𝙼Ꭷ𝙳𝓩𝓨ćѦѦﾟ.:｡+｡:.(*∀TOM)ﾉﾟ𝙼Ꭷ𝙳𝓩𝓨ćѦѦﾟ.:｡";
 global.channelChatId = process.env.CHANNEL_JID || "120363333589976873@newsletter";
-global.logo = process.env.LOGO_URL || "https://files.catbox.moe/vahb53.jpg";
+global.logo = process.env.LOGO_URL || "https://files.catbox.moe/fqonna.jpg";
 global.bench = process.env.BEN_CHANNEL || "https://whatsapp.com/channel/0029Vasu3qP9RZAUkVkvSv32";
 global.benrepo = process.env.BEN_REPO || "https://github.com/NOTHING-MD420/Ben-bot";
 global.benrepodl = process.env.BEN_REPODL || "https://github.com/NOTHING-MD420/Ben-bot/archive/refs/heads/main.zip";
 
 //AUTO FUNCTIONER DONT CHANGE IT
 global.antidelete = process.env.ANTIDELETE === "true";
-global.ANTICALL = process.env.ANTICALL === "true";
+global.ANTICALL = process.env.ANTICALL === "false";
 global.ANTIVIEWONCE = process.env.ANTIVIEWONCE === "true";
 global.antilink = process.env.ANTILINK === "true";
 global.antilinkremove = process.env.ANTILINK_REMOVE === "true";
@@ -54,7 +56,7 @@ global.AUTOSTATUS_REACT = false;
 global.autoLikeReply = false;
 global.autoLikeEmoji = "💚";
 global.welcome = false;
-global.LEVELUP = false;
+global.LEVELUP = true;
 
 
 //AUTO MESSAGE RESPONSE
@@ -63,13 +65,13 @@ global.mess = {
     wait: process.env.MESSAGE_WAIT || '*`⏰ 𝙷𝚘𝚕𝚍 𝙾𝚗 𝙿𝚛𝚘𝚌𝚎𝚜𝚜𝚒𝚗𝚐...`*',
     admin: process.env.MESSAGE_ADMIN || '_*❗This Command Can Only Be Used By Group Admins !*_',
     botAdmin: process.env.MESSAGE_BOT_ADMIN || '_*❗This Command Can Only Be Used When Bot Becomes Group Admin !*_',
-    OnlyOwner: process.env.MESSAGE_OWNER || '_*❗This Command Can Only Be Used By My Owner !*_',
+    OnlyOwner: process.env.MESSAGE_OWNER || '_*❗Yooh motherfucker ..This Command Can Only Be Used By My Owner+｡:.(*∀TOM)ﾉﾟ𝙼Ꭷ𝙳𝓩𝓨ćѦѦﾟ.:｡ !*_',
     OnlyGrup: process.env.MESSAGE_GROUP || '_*❗This Command Can Only Be Used In Group Chat !*_',
     private: process.env.MESSAGE_PRIVATE || '_*❗This Command Can Only Be Used In Private Chat !*_',
     notregist: process.env.MESSAGE_NOT_REGIST || '_*You are not registered in the Bot Database. Please register first*_',
     premium: process.env.MESSAGE_PREMIUM || '_*Premium only" Want Premium? Chat Owner*_',
     endLimit: process.env.MESSAGE_END_LIMIT || '_*Your Daily Limit Has Been Used Up, The Limit Will Be Reset Every 00:00 AM_*.',
-    capvid: process.env.CAPTION_VIDEO || '> © 𝑷𝑶𝑾𝑬𝑹𝑬𝑫 𝑩𝒀 𝑵𝑶𝑻𝑯𝑰𝑵𝑮',
+    capvid: process.env.CAPTION_VIDEO || '> © 𝑷𝑶𝑾𝑬𝑹𝑬𝑫 𝑩𝒀 +｡:.(*∀TOM)ﾉﾟ𝙼Ꭷ𝙳𝓩𝓨ćѦѦﾟ.:｡𝐊𝐢𝐧𝐠_𝐚𝐭𝐨𝐦𝐢𝐜  🗿   ⇶✴☞ʍⲟԃƶ',
 };
     
 //DONT CHANGE IT API KEY
